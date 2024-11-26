@@ -4,7 +4,7 @@ import numpy as np
 from tensorflow.keras.models import load_model
 
 # Cargar el modelo entrenado
-model = load_model("mi_modelo_gestos.h5")
+model = load_model("./mi_modelo_gestos.h5")
 
 # Inicializar MediaPipe
 mp_hands = mp.solutions.hands
